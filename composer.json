@@ -1,21 +1,26 @@
 {
-    "name": "dangetsu/roistat-sdk",
+    "name": "azhilov/roistat-sdk",
     "type": "library",
     "description": "Library for easy work with Roistat API v1",
     "keywords": ["roistat","sdk","library"],
-    "homepage": "https://github.com/Dangetsu/roistat-sdk",
+    "homepage": "https://github.com/azhilov/roistat-sdk",
     "license": "MIT",
     "authors": [
         {
             "name": "Vladislav Alatorcev",
             "email": "clannad_forever@mail.ru",
             "role": "Developer"
+        },
+        {
+            "name": "Zhilov Andrey",
+            "email": "azhilov@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
-        "guzzlehttp/guzzle": ">=5.4.0"
+        "php": ">=7.4.0",
+        "guzzlehttp/guzzle": ">=7.0"
     },
     "autoload": {
         "psr-4": {
@@ -26,7 +31,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/Dangetsu/roistat-sdk.git"
+            "url": "https://github.com/azhilov/roistat-sdk"
         }
     ]
 }
